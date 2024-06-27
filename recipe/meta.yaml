@@ -20,7 +20,7 @@ requirements:
     - setuptools
     - calkulate
     - matplotlib-base
-    - numpy
+    - numpy <2
     - pandas
     - pyco2sys
     - scikit-learn
@@ -31,7 +31,7 @@ requirements:
     - python >=3.7
     - calkulate
     - matplotlib-base
-    - numpy
+    - numpy <2
     - pandas
     - pyco2sys
     - scikit-learn
