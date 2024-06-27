@@ -1,13 +1,13 @@
 {% set name = "koolstof" %}
-{% set version = "0.26" %}
+{% set version = "0.27" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/koolstof-{{ version }}.tar.gz
-  sha256: 0fd636e0410844f6c8b6e70794f981a0a5bf92f01544f6f7fc0f79439103ce9c
+  url: https://files.pythonhosted.org/packages/c8/75/09a16ec6a608c0d893852ac852328a3cd82653549eeab9d2f104152337cb/koolstof-0.27.tar.gz
+  sha256: fd51d2e68aa7723bcee91f4db1c0c3338445e8ec65017b491049702e246ca80f
 
 build:
   noarch: python
@@ -20,7 +20,7 @@ requirements:
     - setuptools
     - calkulate
     - matplotlib-base
-    - numpy
+    - numpy <=1.23
     - pandas
     - pyco2sys
     - scikit-learn
@@ -31,7 +31,7 @@ requirements:
     - python >=3.7
     - calkulate
     - matplotlib-base
-    - numpy
+    - numpy <=1.23
     - pandas
     - pyco2sys
     - scikit-learn
