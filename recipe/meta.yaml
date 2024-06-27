@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/koolstof-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/c8/75/09a16ec6a608c0d893852ac852328a3cd82653549eeab9d2f104152337cb/koolstof-0.27.tar.gz
   sha256: fd51d2e68aa7723bcee91f4db1c0c3338445e8ec65017b491049702e246ca80f
 
 build:
