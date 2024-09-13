@@ -1,5 +1,5 @@
 {% set name = "koolstof" %}
-{% set version = "0.26" %}
+{% set version = "0.28" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/koolstof-{{ version }}.tar.gz
-  sha256: 0fd636e0410844f6c8b6e70794f981a0a5bf92f01544f6f7fc0f79439103ce9c
+  sha256: 4634f0bd8345a10c5bac4d592c1569543d115456d0883a925c2bd1ba753dba1b
 
 build:
   noarch: python
@@ -18,14 +18,6 @@ requirements:
   host:
     - python >=3.7
     - setuptools
-    - calkulate
-    - matplotlib-base
-    - numpy
-    - pandas
-    - pyco2sys
-    - scikit-learn
-    - scipy
-    - seaborn
     - pip
   run:
     - python >=3.7
