@@ -1,5 +1,5 @@
 {% set name = "koolstof" %}
-{% set version = "0.28" %}
+{% set version = "0.29" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/koolstof-{{ version }}.tar.gz
-  sha256: 4634f0bd8345a10c5bac4d592c1569543d115456d0883a925c2bd1ba753dba1b
+  sha256: 159d5763e363c293981306121db18408f4b07df5a1cd4a3f9c3167f059eccc27
 
 build:
   noarch: python
